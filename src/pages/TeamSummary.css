@@ -1,0 +1,92 @@
+.team-summary {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-form {
+  margin: 20px 0;
+}
+
+.search-input {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #34495e;
+}
+
+.summary-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.summary-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.summary-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.properties-table {
+  margin-top: 20px;
+}
+
+.properties-table tfoot {
+  border-top: 2px solid #ddd;
+}
+
+.properties-table tfoot td {
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+.no-properties {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+}
+
+h2 {
+  margin: 30px 0 15px;
+  color: #2c3e50;
+  font-size: 1.5em;
+}
+
+.error {
+  color: #e74c3c;
+  margin: 20px 0;
+}

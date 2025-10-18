@@ -1,0 +1,33 @@
+.properties {
+  padding: 20px;
+  text-align: center;
+}
+
+.properties-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.properties-table th,
+.properties-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.properties-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.properties-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.properties-table tr:hover {
+  background-color: #f5f5f5;
+}

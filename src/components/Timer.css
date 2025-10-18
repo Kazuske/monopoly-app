@@ -1,0 +1,75 @@
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: monospace;
+  font-size: 1.1em;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 0;
+  border-bottom: 2px solid #34495e;
+}
+
+.timer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.time-display {
+  display: flex;
+  gap: 15px;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.timer-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+}
+
+.timer-button.start {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.timer-button.start:disabled {
+  background-color: #27ae60;
+  cursor: not-allowed;
+}
+
+.timer-button.reset {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.timer-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .timer-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .time-display {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer-controls {
+    width: 100%;
+    justify-content: center;
+  }
+}
